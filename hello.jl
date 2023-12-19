@@ -27,6 +27,8 @@ for species in grouped
 end
 
 
-iris_bucket = buckets_by_species[:"Iris-setosa"]
-print(iris_bucket[1][!,:sepal_length])
+setosa_bucket = buckets_by_species[:"Iris-setosa"]
+setosa_bucket = buckets_by_species[:"Iris-versicolor"]
+setosa_bucket = buckets_by_species[:"Iris-virginica"]
+#print(setosa_bucket[1][!,:sepal_length])
 
