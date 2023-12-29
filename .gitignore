@@ -167,4 +167,8 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+#Data
+/Iris
+/Banknote
+
 # End of https://www.toptal.com/developers/gitignore/api/julia,node
